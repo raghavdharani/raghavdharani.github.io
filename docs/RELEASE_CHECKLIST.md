@@ -13,7 +13,8 @@ Use this checklist before publishing a material portfolio update.
 
 - Test every internal navigation link and page-to-page link.
 - Test external LinkedIn and GitHub links.
-- Test every email link.
+- Test contact-form validation, submission routing, and the successful-submission state.
+- Confirm the form recipient has completed the backend's one-time activation.
 - Confirm the custom 404 page returns visitors to the site.
 
 ## Responsive and accessible behavior
