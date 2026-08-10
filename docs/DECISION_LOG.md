@@ -90,14 +90,71 @@ The initially prepared managed hosting workspace supported only restricted acces
 
 The following have not been decided:
 
-- Separate case-study pages versus continued single-page expansion
 - Which artifacts can be sanitized and published
-- Which professional example should become the first deeper case study
 - Whether and how to include personal products or product writing
 - Custom domain
 - Analytics
-- Approval of a public-safe downloadable resume
 - Headshot or expanded personal narrative
 - Google Fonts hosting approach
 - Manual versus automated footer year
-- Adoption of the proposed placeholder pages, custom 404 page, and release checklist currently present only as uncommitted local work
+- Additional deep case studies beyond the KWI decision record
+
+## 2026-08-09: Position broadly as an AI Product Leader
+
+**Status:** Explicitly approved as part of the complete portfolio upgrade.
+
+**Decision**
+
+Lead with broad AI Product Leader positioning while demonstrating technical depth through product decisions, shipped workflow evidence, and practical AI use.
+
+**Rationale**
+
+The portfolio should support senior applied-AI and enterprise workflow roles without implying ML-infrastructure or software-engineering ownership.
+
+## 2026-08-09: Separate shipped work, development work, and experiments
+
+**Status:** Explicitly approved as part of the complete portfolio upgrade.
+
+**Decision**
+
+Label KWI Store Transfers as in development, Keystone as a private prototype, and completed professional products as shipped. Remove placeholder writing and case-study content until substantive material exists.
+
+**Rationale**
+
+Visible evidence states improve credibility and prevent exploratory work from being mistaken for production outcomes.
+
+## 2026-08-09: Remove unsupported KWI and legacy metrics
+
+**Status:** Explicitly approved as part of the complete portfolio upgrade.
+
+**Decision**
+
+Remove the KWI claims of 70% client migration and 30% fewer transfer errors, the 12% shrink claim at Upshop, the 50% manual-review claim at 360insights, the 50% EdgeVerve adoption claim, and the estimated clarification/rework claims. Use only figures supported by the current approved résumé and label operating scale separately from measured outcomes.
+
+**Rationale**
+
+Every published number should be explainable and attached to the correct product, period, and evidence type.
+
+## 2026-08-09: Publish one substantive decision record
+
+**Status:** Explicitly approved as part of the complete portfolio upgrade.
+
+**Decision**
+
+Replace the placeholder case-study page with a public-safe KWI Store Transfers decision record covering the problem, trade-offs, validation process, and success model without claiming launch results.
+
+**Rationale**
+
+A decision narrative demonstrates senior product judgment better than another summary card.
+
+## 2026-08-09: Use a contact form instead of publishing the résumé
+
+**Status:** Explicitly requested before publication.
+
+**Decision**
+
+Keep the résumé PDF out of the public repository. Replace résumé actions with a contact form that uses an external form backend to deliver inquiries by email.
+
+**Rationale**
+
+The portfolio can give recruiters a direct, professional contact path without publishing personal information contained in the résumé. GitHub Pages is static, so email delivery requires a form backend.

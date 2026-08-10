@@ -1,6 +1,6 @@
 # Raghav Dharani Portfolio
 
-Public portfolio for Raghav Dharani, focused on verified enterprise product outcomes across retail, operations, SaaS, and intelligent automation.
+Public portfolio for Raghav Dharani, focused on applied AI, intelligent automation, and verified enterprise product outcomes.
 
 Live site: [raghavdharani.github.io](https://raghavdharani.github.io/)
 
@@ -8,9 +8,9 @@ Live site: [raghavdharani.github.io](https://raghavdharani.github.io/)
 
 - `index.html`: public page content and metadata
 - `styles.css`: visual system and responsive layout
-- `case-study.html`: placeholder for the first deeper case study
-- `blog.html`: placeholder for future product writing
+- `case-study.html`: public-safe KWI product decision record
 - `404.html`: custom not-found page
+- The contact form posts to FormSubmit, which relays submissions to the portfolio email address after one-time recipient activation.
 - `og.png`: social sharing image
 - `favicon.svg`: site icon
 - `AGENTS.md`: durable working instructions for Codex
@@ -29,4 +29,4 @@ python -m http.server 8000
 
 ## Publishing
 
-GitHub Pages publishes the repository root from `main`. HTTPS is enforced. Changes should be reviewed locally before committing or pushing because updates to `main` affect the public site.
+GitHub Pages publishes the repository root from `main`. HTTPS is enforced. Material changes should be reviewed locally and merged through a pull request because updates to `main` affect the public site.
