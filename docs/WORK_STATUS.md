@@ -19,3 +19,6 @@ Last reviewed: 2026-10-10
 Run `npm ci` then `npm run dev` to review locally at http://localhost:4321. Astro source is authoritative for this redesign. Legacy root HTML/CSS remains the prior published version. GitHub Pages must serve the Astro build via the existing Actions workflow before this redesign can go live.
 
 Astro source check passed with zero errors, warnings or hints. Independent source/documentation review: ship at that scope; browser verification remains outstanding.
+
+## 2026-10-10: Cooler palette
+User requested a change in color tone. Applied cool light grey, graphite text and navy focus/link accents across stylesheet, browser theme and favicon. Fixed unintended label overlines. Layout and claims retained.
