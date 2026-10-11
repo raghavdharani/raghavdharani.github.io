@@ -1,6 +1,6 @@
 ---
 import '../styles/global.css';
-const { title='Raghav Dharani — Product Leader', description='Selected work in enterprise software, applied AI and complex operations.', canonical='/', ogImage='/og.png' } = Astro.props;
+const { title='Raghav Dharani — Product Leader', description='Selected work in enterprise software, applied AI and complex operations.', canonical='/' } = Astro.props;
 ---
 <!doctype html>
 <html lang="en">
@@ -16,8 +16,7 @@ const { title='Raghav Dharani — Product Leader', description='Selected work in
   <meta property="og:title" content={title} />
   <meta property="og:description" content={description} />
   <meta property="og:url" content={new URL(canonical, Astro.site)} />
-  <meta property="og:image" content={new URL(ogImage, Astro.site)} />
-  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:card" content="summary" />
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
