@@ -2,22 +2,20 @@
 
 Last reviewed: 2026-10-10
 
-## Editorial rebuild in review
+## Data publication redesign prepared locally
 
-- Created an Astro 5 + Tailwind CSS 4 static site on a feature branch.
-- Rebuilt homepage, shared layout, and Store Transfers decision record.
-- Preserved approved, sanitized professional claims from project context.
-- Structured work as editorial narratives instead of repetitive portfolio cards.
-- Added responsive layouts, skip link, semantic sections and reduced-motion support.
-- Moved contact to email, avoiding FormSubmit activation and third-party submission.
-- Added GitHub Actions deployment for the Astro `dist/` output.
+- Rebuilt shared tokens and responsive stylesheet in existing Astro 5 + Tailwind 4.
+- Updated homepage to role-led serif typography and compact professional evidence.
+- Removed decorative numbering and green quotation panel.
+- Kept mobile navigation visible and preserved focus/reduced-motion behavior.
+- Updated shared favicon and theme metadata.
+- Preserved sanitized claims, in-development status and independent prototype labels.
+- `npm run build` and generated HTML structural audit passed.
+- No browser preview or screenshot QA was available; rendered overflow and keyboard interaction remain unverified.
+- No commit, push, pull request, Pages settings change or deployment was performed.
 
-## Before publishing
+## Review
 
-- Review the site locally with `npm install && npm run dev`.
-- Run `npm run build` and test desktop/mobile, keyboard navigation and link targets.
-- Set GitHub Pages Source to GitHub Actions **before merging**.
-- Create a new social preview asset for the redesign if desired; the existing remote image is not bundled.
-- Confirm whether the direct-contact email should stay publicly visible.
+Run `npm ci` then `npm run dev` to review locally at http://localhost:4321. Astro source is authoritative for this redesign. Legacy root HTML/CSS remains the prior published version. GitHub Pages must serve the Astro build via the existing Actions workflow before this redesign can go live.
 
-Existing main/root static Pages deployment remains unchanged until merge.
+Astro source check passed with zero errors, warnings or hints. Independent source/documentation review: ship at that scope; browser verification remains outstanding.

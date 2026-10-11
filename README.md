@@ -7,7 +7,7 @@ Personal portfolio built with Astro 5 and Tailwind CSS 4. The site is static and
 Requires Node.js 22+.
 
 ```bash
-npm install
+npm ci
 npm run dev
 ```
 
@@ -40,3 +40,5 @@ No resume PDF is distributed. Public copy uses previously approved claims from r
 ## Design discipline
 
 This is an editorial system influenced by Impeccable principles: deliberate hierarchy, consistent spacing and type scales, contrast, restrained animation, responsive and accessible markup, and the removal of generic cards, badges and decorative UI. It is not a claim that an Impeccable CLI or audit was executed.
+
+Current direction: Data publication. See `DESIGN.md` for tokens and `docs/UI_AUDIT.md` for findings and verification limits. Official Impeccable references were read; its launcher and detector were not available.

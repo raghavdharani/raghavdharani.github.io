@@ -9,11 +9,11 @@ const work = [
 ---
 <Base title="Raghav Dharani — Enterprise Product Leadership" description="Raghav Dharani builds and modernizes enterprise software across AI-enabled workflows, retail technology and intelligent automation.">
   <section class="hero" aria-labelledby="hero-heading">
-    <div class="hero-rail"><span class="overline">Independent portfolio / 2026</span><span class="overline">New York, NY</span></div>
+    <div class="hero-rail"><span class="overline">Enterprise software & applied AI</span><span class="overline">New York, NY</span></div>
     <div class="hero-composition">
       <div class="hero-copy">
-        <p class="overline accent">Product leadership · Enterprise software · Applied AI</p>
-        <h1 id="hero-heading">Complex systems.<br /><em>Clearer decisions.</em></h1>
+        
+        <h1 id="hero-heading">Product leadership for<br /><em>complex operations.</em></h1>
         <p class="hero-deck">I’m Raghav. I build products for the work that happens behind the scenes: ordering, inventory, financial operations and enterprise automation.</p>
         <div class="hero-actions"><a href="#work" class="primary-link">Explore the work <span aria-hidden="true">↘</span></a><a href="mailto:raghav.dharani@gmail.com" class="quiet-link">Start a conversation ↗</a></div>
       </div>
@@ -22,34 +22,34 @@ const work = [
         <p class="overline">The throughline</p>
         <p class="aside-statement">Making complicated operations easier to run, without pretending the complexity isn’t there.</p>
         <p class="aside-note">From product discovery and system design to rollout, adoption and measurable change.</p>
-        <span class="aside-index">RD / 01—04</span>
+        
       </aside>
     </div>
     <div class="hero-bottom"><span>Selected professional work, 2016–present</span><span>Scroll to explore ↓</span></div>
   </section>
 
   <section class="intro section-frame" id="work" aria-labelledby="work-title">
-    <div class="section-kicker"><span class="index">01 / Work</span><span class="overline">Selected cases</span></div>
-    <div class="intro-body"><h2 id="work-title">The work is in the <em>details.</em></h2><p>A selection of products where the difficult part wasn’t designing a screen. It was understanding decisions, handling exceptions and getting real teams to adopt a better way of working.</p></div>
+    <div class="section-kicker"><span class="index">Work</span><span class="overline">Selected cases</span></div>
+    <div class="intro-body"><h2 id="work-title">Selected professional work</h2><p>A selection of products where the difficult part wasn’t designing a screen. It was understanding decisions, handling exceptions and getting real teams to adopt a better way of working.</p></div>
   </section>
 
   <section class="work-list" aria-label="Selected product work">
     {work.map((item) => <article class="work-entry">
-      <div class="entry-left"><span class="entry-number">{item.number}</span><span class="entry-employer">{item.employer}</span><span class="entry-date">{item.date}</span></div>
+      <div class="entry-left"><span class="entry-employer">{item.employer}</span><span class="entry-date">{item.date}</span></div>
       <div class="entry-content">
-        <p class="overline">{item.category}</p>
+        
         <h3>{item.title}</h3>
         <p class="entry-description">{item.description}</p>
-        <p class="entry-evidence"><span class="tiny-square"></span>{item.detail}</p>
+        <p class="entry-evidence">{item.detail}</p>
         {item.url && <a class="case-anchor" href={item.url}>Read the product decision record <span aria-hidden="true">↗</span></a>}
       </div>
     </article>)}
   </section>
 
-  <section class="interlude" aria-label="Working philosophy"><p class="overline">A working principle</p><blockquote>Good product work doesn’t remove every constraint. It makes the right ones <em>visible.</em></blockquote><span class="interlude-tag">Discovery / Decisions / Delivery</span></section>
+  <section class="interlude" aria-label="Working philosophy"><p class="overline">A working principle</p><blockquote>Good product work doesn’t remove every constraint. It makes the right ones <em>visible.</em></blockquote></section>
 
   <section class="experience section-frame" id="experience">
-    <div class="section-kicker"><span class="index">02 / Experience</span><span class="overline">How the work connects</span></div>
+    <div class="section-kicker"><span class="index">Experience</span><span class="overline">How the work connects</span></div>
     <div class="experience-body"><h2>Built across industries.<br /><em>Grounded in operations.</em></h2>
       <div class="experience-grid">
         <div><span class="overline">What I work on</span><p>Enterprise platforms, modernization, product strategy, workflow orchestration, intelligent automation and applied AI.</p></div>
@@ -60,13 +60,13 @@ const work = [
   </section>
 
   <section class="lab section-frame" aria-labelledby="lab-title">
-    <div class="section-kicker"><span class="index">03 / Practice</span><span class="overline">Exploratory / Not production claims</span></div>
-    <div class="lab-body"><div><p class="overline">An independent experiment</p><h2 id="lab-title">Keystone</h2><p>A private, AI-assisted product specification prototype exploring a familiar problem: important questions emerge too late in delivery. It makes assumptions, owners and review decisions visible before a team commits to building.</p></div><div class="lab-note"><span class="overline">What it demonstrates</span><p>Hands-on prototyping, workflow thinking and the practical use of AI in product development.</p><span class="small-label">Private prototype · Not a shipped customer product</span></div></div>
+    <div class="section-kicker"><span class="index">Independent practice</span><span class="overline">Exploratory / Not production claims</span></div>
+    <div class="lab-body"><div><h2 id="lab-title">Keystone</h2><p>A private, AI-assisted product specification prototype exploring a familiar problem: important questions emerge too late in delivery. It makes assumptions, owners and review decisions visible before a team commits to building.</p></div><div class="lab-note"><span class="overline">What it demonstrates</span><p>Hands-on prototyping, workflow thinking and the practical use of AI in product development.</p><span class="small-label">Private prototype · Not a shipped customer product</span></div></div>
   </section>
 
   <section class="about section-frame" id="about">
-    <div class="section-kicker"><span class="index">04 / About</span><span class="overline">A little context</span></div>
+    <div class="section-kicker"><span class="index">About</span><span class="overline">A little context</span></div>
     <div class="about-body"><h2>Product thinking, with an <em>operator’s instinct.</em></h2><div class="about-prose"><p>My career has taken me through retail technology, incentive and claims platforms, and intelligent automation. The common thread is software that people depend on to get complicated, consequential work done.</p><p>I move between strategy and detail: listening to users, untangling business rules, debating trade-offs with engineers and staying involved through adoption.</p><div class="bio-meta"><div><span class="overline">Education</span><p>MBA, Management Development Institute<br />B.E., R.V. College of Engineering</p></div><div><span class="overline">Credentials</span><p>Certified Scrum Product Owner<br />Pragmatic Marketing Level II</p></div></div></div></div>
   </section>
-  <section class="contact-band"><div><span class="overline">A conversation starts here</span><h2>Have a complex problem worth solving?</h2></div><div class="contact-actions"><a href="mailto:raghav.dharani@gmail.com">raghav.dharani@gmail.com ↗</a><a href="https://www.linkedin.com/in/raghavdharani" target="_blank" rel="noopener noreferrer">Connect on LinkedIn ↗</a><a href="https://github.com/raghavdharani" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></section>
+  <section class="contact-band"><div><h2>Have a complex problem worth solving?</h2></div><div class="contact-actions"><a href="mailto:raghav.dharani@gmail.com">raghav.dharani@gmail.com ↗</a><a href="https://www.linkedin.com/in/raghavdharani" target="_blank" rel="noopener noreferrer">Connect on LinkedIn ↗</a><a href="https://github.com/raghavdharani" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></section>
 </Base>

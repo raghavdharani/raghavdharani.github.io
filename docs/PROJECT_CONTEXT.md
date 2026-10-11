@@ -36,7 +36,7 @@ Current hierarchy:
 3. Five examples ordered for recency and relevance
 4. Practical applied-AI evidence
 5. Product operating principles
-6. Background and a backend-delivered contact form
+6. Background and direct email contact
 
 Current examples:
 
@@ -61,27 +61,17 @@ Do not publish customer names, confidential employer or customer material, propr
 
 ## Design direction
 
-Preserve the editorial, restrained visual system:
-
-- Warm paper: `#f2efe8`
-- Deep forest green: `#152925`
-- Burnt orange: `#e55d37`
-- Pale mint: `#bad5c9`
-- DM Sans for functional typography
-- Instrument Serif for editorial emphasis
-- Strong whitespace, thin rules, compact labels, and restrained process motifs
-
-Avoid generic card grids, gradients, neon effects, fake application interfaces, stock AI imagery, device mockups, badge walls, random quotations, and gratuitous animation.
+Raghav selected Data publication on 2026-10-10: neutral warm white, charcoal, serif headlines, thin rules and restrained emphasis. The former forest-green, orange and mint system is superseded for the Astro redesign. `DESIGN.md` and `src/styles/global.css` define the current tokens. Use readable labels and evidence rather than oversized slogans, decorative numbering or quotation panels.
 
 ## Experience and publishing constraints
 
 - Remain responsive and usable without JavaScript.
-- Keep the résumé out of the public repository. Route inquiries through the contact form instead.
+- Keep the résumé out of the public repository. Use the existing direct email contact links, as recorded in the 2026-10-10 editorial rebuild decision.
 - Preserve semantic structure, keyboard accessibility, readable contrast, and reduced-motion support.
 - Keep the social preview and metadata consistent with the visible positioning.
 - Keep copy natural, specific, concise, and free of stock AI phrasing.
 - Publish from the root of `main` at `https://raghavdharani.github.io/`.
-- Preserve the static HTML and CSS architecture unless a new capability requires otherwise.
+- Use the existing Astro 5 and Tailwind CSS 4 static build, as explicitly requested by Raghav.
 
 ## Open decisions
 
