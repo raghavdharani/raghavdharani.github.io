@@ -61,7 +61,7 @@ Do not publish customer names, confidential employer or customer material, propr
 
 ## Design direction
 
-Raghav selected Data publication on 2026-10-10: neutral warm white, charcoal, serif headlines, thin rules and restrained emphasis. The former forest-green, orange and mint system is superseded for the Astro redesign. `DESIGN.md` and `src/styles/global.css` define the current tokens. Use readable labels and evidence rather than oversized slogans, decorative numbering or quotation panels.
+Raghav selected Data publication on 2026-10-10: cool light grey, graphite, serif headlines, thin rules and restrained emphasis. The former forest-green, orange and mint system is superseded for the Astro redesign. `DESIGN.md` and `src/styles/global.css` define the current tokens. Use readable labels and evidence rather than oversized slogans, decorative numbering or quotation panels.
 
 ## Experience and publishing constraints
 
