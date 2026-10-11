@@ -1,40 +1,23 @@
 # Work status
 
-Last reviewed: 2026-08-09
+Last reviewed: 2026-10-10
 
-## Current state
+## Editorial rebuild in review
 
-- The portfolio is publicly available at `https://raghavdharani.github.io/`.
-- GitHub Pages publishes the repository root from `main` with HTTPS enforced.
-- The implementation is static HTML and CSS with no build step or application framework.
-- The current update has explicit authorization to stage, commit, push, open a pull request, and merge.
+- Created an Astro 5 + Tailwind CSS 4 static site on a feature branch.
+- Rebuilt homepage, shared layout, and Store Transfers decision record.
+- Preserved approved, sanitized professional claims from project context.
+- Structured work as editorial narratives instead of repetitive portfolio cards.
+- Added responsive layouts, skip link, semantic sections and reduced-motion support.
+- Moved contact to email, avoiding FormSubmit activation and third-party submission.
+- Added GitHub Actions deployment for the Astro `dist/` output.
 
-## Completed in this update
+## Before publishing
 
-- Repositioned the portfolio broadly around AI Product Leadership and intelligent enterprise workflows.
-- Preserved the warm editorial design while simplifying slogans and adding clearer evidence labels.
-- Added recruiter actions for selected work, the contact form, LinkedIn, and GitHub.
-- Reordered five examples for recency and relevance: KWI, Upshop, Keystone, EdgeVerve, and 360insights.
-- Separated shipped professional work, work in development, and a private prototype.
-- Removed unsupported KWI migration and error-reduction claims and other legacy metrics not present in the current résumé.
-- Distinguished operating scale from measured outcomes.
-- Added an Applied AI in Practice section covering recommendations, human review, and AI-assisted delivery.
-- Replaced the placeholder case-study page with a public-safe KWI decision record.
-- Removed the empty Writing page and all public “coming later” language.
-- Added a backend-delivered contact form with required-field validation, spam filtering, and a confirmation state.
-- Removed the résumé PDF and all public download links.
-- Updated metadata, navigation, documentation, and the social preview for consistency.
+- Review the site locally with `npm install && npm run dev`.
+- Run `npm run build` and test desktop/mobile, keyboard navigation and link targets.
+- Set GitHub Pages Source to GitHub Actions **before merging**.
+- Create a new social preview asset for the redesign if desired; the existing remote image is not bundled.
+- Confirm whether the direct-contact email should stay publicly visible.
 
-## Known limitations
-
-- Published examples do not yet include sanitized screenshots or diagrams.
-- The site depends on Google Fonts; its performance and privacy trade-off has not been reviewed.
-- No analytics are installed, and no analytics decision has been made.
-- The footer year remains static.
-- Form delivery requires one-time recipient activation through the email sent by FormSubmit after the first submission.
-
-## Recommended next steps
-
-1. Identify one or two public-safe artifacts that materially improve the KWI decision record.
-2. Review whether externally hosted Google Fonts should remain.
-3. Decide whether a specific measurement question justifies privacy-conscious analytics.
+Existing main/root static Pages deployment remains unchanged until merge.
