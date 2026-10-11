@@ -25,3 +25,6 @@ Build and browser tests remain required before merging.
 ## 2026-10-10: Data publication direction selected
 
 Raghav selected option 1 for the resume portfolio: warm white, serif headlines, thin rules and restrained color. Replaced the green/mint/orange composition with neutral publication tokens; compacted the opening to foreground work; retained Astro 5 and Tailwind 4. The official Impeccable new-work and craft-floor references informed implementation; its launcher was unavailable. No new impact claims were introduced. Changes are local, uncommitted and unpublished, per AGENTS.md.
+
+## 2026-10-10: Cooler palette
+User requested a change in color tone. Applied cool light grey, graphite text and navy focus/link accents across stylesheet, browser theme and favicon. Fixed unintended label overlines. Layout and claims retained.
