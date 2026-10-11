@@ -1,32 +1,42 @@
-# Raghav Dharani Portfolio
+# Raghav Dharani — Portfolio
 
-Public portfolio for Raghav Dharani, focused on applied AI, intelligent automation, and verified enterprise product outcomes.
+Personal portfolio built with Astro 5 and Tailwind CSS 4. The site is static and hosted on GitHub Pages.
 
-Live site: [raghavdharani.github.io](https://raghavdharani.github.io/)
+## Run locally
 
-## Project structure
-
-- `index.html`: public page content and metadata
-- `styles.css`: visual system and responsive layout
-- `case-study.html`: public-safe KWI product decision record
-- `404.html`: custom not-found page
-- The contact form posts to FormSubmit, which relays submissions to the portfolio email address after one-time recipient activation.
-- `og.png`: social sharing image
-- `favicon.svg`: site icon
-- `AGENTS.md`: durable working instructions for Codex
-- `docs/PROJECT_CONTEXT.md`: goals, audience, positioning, content, and design constraints
-- `docs/WORK_STATUS.md`: current state, known limitations, and next steps
-- `docs/DECISION_LOG.md`: durable decisions and rationale
-- `docs/RELEASE_CHECKLIST.md`: repeatable pre-publish validation
-
-## Local preview
-
-This is a static site with no build step. Serve the repository root with any local HTTP server, then open the local URL it reports. For example:
+Requires Node.js 22+.
 
 ```bash
-python -m http.server 8000
+npm install
+npm run dev
 ```
+
+Open http://localhost:4321.
+
+## Build and preview
+
+```bash
+npm run build
+npm run preview
+```
+
+The deployable static site is generated in `dist/`.
 
 ## Publishing
 
-GitHub Pages publishes the repository root from `main`. HTTPS is enforced. Material changes should be reviewed locally and merged through a pull request because updates to `main` affect the public site.
+Merge the editorial redesign pull request after review. The GitHub Actions workflow deploys `dist/` to GitHub Pages. **Before merging**, change repository Settings → Pages → Build and deployment → Source to **GitHub Actions**. Otherwise the existing main-branch/root Pages publishing mode will not serve the Astro output.
+
+## Content and implementation
+
+- `src/pages/index.astro`: homepage and selected work
+- `src/pages/case-study/index.astro`: Store Transfers decision record
+- `src/layouts/Base.astro`: shared metadata and navigation
+- `src/styles/global.css`: design tokens, responsive typography and layout
+- `public/`: static assets
+- `docs/`: editorial constraints, evidence rules and decision history
+
+No resume PDF is distributed. Public copy uses previously approved claims from repository documentation. No client names or confidential materials are included. Contact uses an email link rather than a third-party form backend.
+
+## Design discipline
+
+This is an editorial system influenced by Impeccable principles: deliberate hierarchy, consistent spacing and type scales, contrast, restrained animation, responsive and accessible markup, and the removal of generic cards, badges and decorative UI. It is not a claim that an Impeccable CLI or audit was executed.
